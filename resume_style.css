@@ -1,0 +1,130 @@
+/* STYLE SHEET FOR RESUME */
+
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding-top: 75px; /* create space between content and navbar */
+}
+h1, h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+h3 {
+  font-family: Open Sans;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00b0f0;
+  margin: 0;
+}
+p {
+  font-family: Open Sans;
+  margin: 0;
+}
+.italic {
+  font-style: italic;
+}
+span.sub {
+  color:black;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.accomplishments {
+  font-family: Open Sans;
+  padding-left: 20px;
+}
+div.floating-box {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  font-family: Open Sans;
+  font-weight: bold;
+}
+#experience {
+  border-bottom: 2px solid black;
+  margin-left: 25px; margin-right: 25px;
+}
+.job {
+  margin-bottom: 25px;
+  border-bottom: 1px dashed grey;
+}
+#last-job {
+  margin-bottom: 25px;
+  border-bottom: none;
+}
+
+/* FLEXBOX STYLING */
+.flex {
+  border-bottom: 2px solid black;
+  margin-left: 25px; margin-right: 25px;
+  display: flex;
+}
+.flex div {
+  margin-bottom: 25px;
+}
+.first {
+  padding-right: 50px;
+  border-right: 1px dashed grey;
+}
+.second {
+  padding-left: 50px;
+}
+#skills-activities {
+  margin-top: 25px;
+  margin-left: 25px; margin-right: 25px;
+  display: flex;
+}
+.no-margin {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#skills {
+  width: 50%;
+  padding-right: 50px;
+  border-right: 1px dashed grey;
+}
+#activities {
+  width: 50%;
+  padding-left: 50px;
+}
+
+/* NAVBAR STYLE */
+.navigation {
+  margin: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+
+  background: #2980b9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00b0f0, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00b0f0, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 5px 15px #888888;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+#last {
+  margin-right: 25px;
+}
+#name {
+  color: white;
+  margin-right: auto;
+}
+.navigation a {
+  padding: 15px;
+  font-family: Open Sans;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  /*margin-right: 25px;*/
+}
+.navigation a:hover {
+  color: #00b0f0;
+}
